@@ -1,0 +1,29 @@
+{
+  "name": "top-restaurant-page",
+  "version": "1.0.0",
+  "description": "TOP Project: Restaurant Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "message":"echo $1",
+    "message:push":"git add . && git commit -m $1 && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/enginma9/TOP-Restaurant-Page.git"
+  },
+  "author": "enginma9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enginma9/TOP-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/enginma9/TOP-Restaurant-Page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,0 +1,22 @@
+:root{
+    --some-variable: min( 1vh,1vw );
+}
+
+@font-face {
+
+    font-family: 'goth';
+    src: url('./GotikaStrictPersonalUseRegular-6YKVM.otf');
+  }
+
+body{}
+
+.title {
+    font-family: 'goth';
+    color: transparent;
+    font-size: 10vh;
+    font-weight: bold;
+    background: url('./background.jpg');
+    background-size: contain;
+    background-clip: text;
+
+}
