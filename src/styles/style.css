@@ -1,0 +1,161 @@
+:root{
+    --unit: min( 1vh,1vw );
+    --jasmine:#F8DE7E;
+    --tea-green: #193d10;
+    --earth-kingdom-green: #47b44f;
+    --earth-kingdom-green-trans: #47b44f77;
+    --earth-kingdom-brown:#5e230f;
+    --earth-kingdom-dark-brown: #401709;
+}
+
+@font-face {
+
+    font-family: 'goth';
+    src: url('../assets/GotikaStrictPersonalUseRegular-6YKVM.otf');
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+body{
+    background-image: url('../assets/background5.jpg');
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: calc(var(--unit)*3);
+}
+.content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: var(--unit) solid var(--earth-kingdom-brown);
+    border-right: var(--unit) solid var(--earth-kingdom-brown);
+    background-color: var(--earth-kingdom-green-trans);
+    padding: calc(var(--unit)*2);
+    width: 65%;
+    /*height: 100%;*/
+    margin:0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    background-color: var(--tea-green);
+    padding: var(--unit);
+    margin: 0;
+    border-bottom: 2px solid var(--jasmine);
+    width: 100%;
+}
+
+.title {
+    font-family: 'goth';
+    color: transparent;
+    background: url('../assets/background.jpg');
+    background-size: contain;
+    background-clip: text;
+    font-size: calc(var(--unit)*10);
+    font-weight: bold;
+}
+
+#marker{
+    height: calc(var(--unit)*5);
+    width: calc(var(--unit)*5);
+    position: absolute;
+    top: calc(var(--unit)*-0);
+    left: var(--unit);
+    
+}
+
+.tea-img{
+    height: calc(var(--unit)*15);
+    width: calc(var(--unit)*15);
+}
+
+.air-emblem{
+    content: url(../assets/Air_Nomads_emblem.png);
+}
+
+.water-emblem{
+    content: url(../assets/Water_Tribe_emblem.png);
+}
+
+.earth-emblem{
+    content: url(../assets/Earth_Kingdom_emblem.png)
+}
+
+.fire-emblem{
+    content: url(../assets/Fire_Nation_emblem.png);
+}
+
+.nav{
+    font-size: calc(var(--unit)*5);
+    display:flex;
+    flex-direction: row;
+}
+.nav > *{
+    border:1px solid var(--earth-kingdom-green);
+    padding: calc(var(--unit)*2);
+    border-radius: var(--unit);
+    margin-left: var(--unit);
+    margin-right: var(--unit);
+    font-size: calc(var(--unit)*5);
+    color:var(--earth-kingdom-green);
+}
+.active{
+    color: transparent;
+    background: url('../assets/background.jpg');
+    background-size: contain;
+    background-clip: text;
+    border: 1px solid var(--jasmine)
+}
+
+.content > * > * {
+    border: 1px solid var(--jasmine);
+    border-radius: var(--unit);
+    background-color: rgba(240, 248, 255, 0.757);
+    color: var(--earth-kingdom-dark-brown);
+    padding: calc(var(--unit)*2);
+    margin: calc(var(--unit)*5);
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hide-me{
+    display: none;
+}
+
+.embolden{
+    font-weight: bold;
+}
+.dramatic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+/*
+/*
+box-shadow: inset var(--unit) var(--unit) var(--unit) var(--jasmine),
+                inset calc(var(--unit)*-1) calc(var(--unit)*-1) var(--unit) var(--jasmine);
+*/

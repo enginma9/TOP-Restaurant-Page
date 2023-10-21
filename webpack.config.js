@@ -10,10 +10,10 @@ module.exports = {
     },
     plugins:[
         new HtmlWebPackPlugin({
-            title: 'Test 7 Webpack',
+            title: 'Jasmine Dragon',
             filename: 'index.html',
             inject: 'body',// body, head
-            favicon: './src/favicon.ico',
+            favicon: './src/assets/favicon.ico',
         })
     ],
     module: {
