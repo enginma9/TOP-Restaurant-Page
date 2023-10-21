@@ -22,7 +22,7 @@ class aboutPage{
         this.ack1 = Enginma.createObject({ classes:["dramatic"] });
         Enginma.appendChildren({ parent:this.ack1, children:[ document.createTextNode( "\"Avatar, the Last Airbender\" fan Page made for "), 
                                                         Enginma.createLink({ text:"The Odin Project", address:"https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page" }),
-                                                        Enginma.createLink({ text:"Please vote for my Submission", address:"https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page/project_submissions" }) 
+                                                        Enginma.createLink({ text:"Please vote for my Submission (enginma9)", address:"https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page/project_submissions#project_submission_156756" }) 
                                                     ] });
         
         
