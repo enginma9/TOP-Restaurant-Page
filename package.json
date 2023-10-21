@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "message":"echo $1",
-    "message:push":"git add . && git commit -m $1 && git push"
+    "message:push":"git add . && git commit -m $1 && git push",
+    "go": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
